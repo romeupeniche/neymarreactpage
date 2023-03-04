@@ -1,0 +1,44 @@
+.content, .img-container {
+    transition: 0.5s;
+}
+
+.content {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.link-img {
+    justify-self: center;
+    margin-bottom: 60px;
+    text-decoration: none;
+}
+
+.content:hover .img-container {
+    filter: blur(10px);
+}
+
+.img-container:hover {
+    cursor: pointer;
+    filter: blur(0) !important;
+    transform: scale(1.05);
+}
+
+.timeline-title {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+@media (max-width: 630px) {
+    .timeline-title {
+        font-size: 6.3vw;
+    }
+}
+
+@media(max-width: 1130px) {
+    .content {
+        grid-template-columns: 1fr 1fr;
+    }
+}

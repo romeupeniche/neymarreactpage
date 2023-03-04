@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+#img2010-1, #img2010-2 {
+    border-radius: 10px;
+    border: solid 2px;
+}
+
+#img2010-1 {
+    justify-self: end;
+    border-color: #247BA0;
+    grid-area: image1;
+}
+
+#img2010-2 {
+    border-color: #79C99E;
+    grid-area: image2;
+}
+
+#div2010 * {
+    margin: 30px;
+}
+
+#title2010 {
+    text-align: left;
+    grid-area: title;
+    font-size: 3.9rem;
+}
+
+#year {
+    margin: 0;
+    color: #247BA0;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+#div2010 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "title image1"
+    "text1 image1"
+    "image2 text2-3"
+    "text4 ."
+    ". footer";
+}
+
+
+#timeline-footer, #timeline-footer-ref {
+    margin: 0;
+}
+
+#div2010 .reference {
+    margin: 0;
+    color: #79C99E;
+}
+
+#text2010-1, #text2010-2-3, #text2010-4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+#text2010-1 {
+    grid-area: text1;
+    
+}
+
+#text2010-2-3 {
+    grid-area: text2-3;
+}
+
+#text2010-2-3 .text2010-2-3-div {
+    margin: 0 0 20px 0;
+}
+
+#text2010-4 {
+    grid-area: text4;
+}
+
+#timeline-footer {
+    justify-self: end;
+    grid-area: footer;
+    justify-self: end;
+}
+
+#timeline-footer-ref {
+    margin: 10px;
+}
