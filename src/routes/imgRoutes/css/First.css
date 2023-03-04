@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-#img2010-1, #img2010-2 {
+#img2010-1, #img2010-2, #img2010-3 {
     border-radius: 10px;
     border: solid 2px;
 }
@@ -14,6 +14,12 @@
 #img2010-2 {
     border-color: #79C99E;
     grid-area: image2;
+}
+
+#img2010-3 {
+    justify-self: end;
+    border-color: #247BA0;
+    grid-area: image3;
 }
 
 #div2010 * {
@@ -41,7 +47,7 @@
     "title image1"
     "text1 image1"
     "image2 text2-3"
-    "text4 ."
+    "text4 image3"
     ". footer";
 }
 
@@ -85,4 +91,11 @@
 
 #timeline-footer-ref {
     margin: 10px;
+}
+
+#div2010 .blue-emph {
+    margin: 0;
+    font-size: 2.2rem;
+    color: #247BA0;
+    font-weight: 590;
 }

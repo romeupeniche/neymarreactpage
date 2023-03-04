@@ -6,15 +6,14 @@
     padding: 5px;
     border-radius: 5px;
     text-align: center;
-    box-shadow:
-    5px 0 10px 0 rgba(0, 0, 0, 0.12),
-    5px 0 15px 0 rgba(0, 0, 0, 0.09);
+    box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .image {
     width: 350px;
     height: 350px;
     object-fit: cover;
+    border-radius: 5px;
 }
 
 p.inner-text { 
