@@ -1,0 +1,19 @@
+#general-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#general-footer-img {
+    font-size: 1rem;
+    margin: 10px;
+}
+
+.references {
+    color: #79C99E;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#general-footer-info {
+    margin: 10px;
+}

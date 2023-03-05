@@ -1,11 +1,11 @@
 ul.menu,
 .logo,
-.pageItem {
+.nav-item {
     margin: 0;
-    padding: 0;
     list-style: none;
     font-size: 1.4rem;
     font-family: Arial;
+    text-decoration: none;
 }
 
 .header {
@@ -22,20 +22,18 @@ ul.menu,
     display: flex;
 }
 
-.pageItem {
+.nav-item {
     margin-left: 40px;
     padding: 10px 15px;
     border-radius: 5px;
-    transition: 0.5s;
 }
 
-.pageItem:hover {
-    cursor: pointer;
+.nav-item:hover {
     background-color: #247BA0;
     scale: 1.1;
 }
 
-.pageItem:hover .navigation {
+.nav-item:hover .navigation {
     color: #1d1e20;
 }
 
@@ -43,8 +41,7 @@ ul.menu,
     max-width: 40px;
 }
 
-.navigation {
+.nav-item, .navigation {
     transition: 0.5s;
-    text-decoration: none;
     color: #247BA0;
 }

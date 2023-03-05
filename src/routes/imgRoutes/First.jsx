@@ -15,7 +15,7 @@ export default () => {
                     Neymar gravava seu estilo único e peculiar. Um moicano, com laterais raspadas, mantendo a coloração natural do seu cabelo.
                 </div>
                 <div className='text2010-2-3-div'>
-                    Segundo o site <a className='reference' href="https://www.transfermarkt.us/neymar/leistungsdaten/spieler/68290/saison/2010/plus/1#gesamt">Transfermarkt</a>, de 21 jogos no Campeonato Brasileiro da Série A, ele participou em 11 deles, desses, perdendo apenas 2 jogos. <br />
+                    De 21 jogos no Campeonato Brasileiro da Série A, ele participou em 11 deles, desses, perdendo apenas 2 jogos. <br /> <br />
                     Na Libertadores que foi seu grande brilho, de 13 jogos, perdeu apenas 1, e participou em 9 deles.
                 </div>
             </div>
@@ -23,9 +23,6 @@ export default () => {
                 Nesse ano, Neymar ganhava <span className='blue-emph'>prêmios</span> de: Melhor jogador do Campeonato Paulista, melhor segundo atacante do Campeonato Paulista, Bola de Prata e Chuteira de Ouro da Revista Placar, entre outros. <br />
                 Ganhava também o Campeonato Paulista, e a Copa do Brasil pelo seu time da época, o Santos.
             </div>
-            <footer id='timeline-footer'>
-                <p id='timeline-footer-ref'>All images from <a className='reference' href="https://www.gettyimages.ca/photos/neymar-2010">gettyimages.ca</a></p>
-            </footer>
         </div>
     )
 }

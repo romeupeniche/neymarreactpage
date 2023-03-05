@@ -48,12 +48,6 @@
     "text1 image1"
     "image2 text2-3"
     "text4 image3"
-    ". footer";
-}
-
-
-#timeline-footer, #timeline-footer-ref {
-    margin: 0;
 }
 
 #div2010 .reference {
@@ -81,16 +75,6 @@
 
 #text2010-4 {
     grid-area: text4;
-}
-
-#timeline-footer {
-    justify-self: end;
-    grid-area: footer;
-    justify-self: end;
-}
-
-#timeline-footer-ref {
-    margin: 10px;
 }
 
 #div2010 .blue-emph {

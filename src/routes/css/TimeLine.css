@@ -21,7 +21,7 @@
 .img-container:hover {
     filter: blur(0) !important;
     transform: scale(1.05);
-    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .timeline-title {

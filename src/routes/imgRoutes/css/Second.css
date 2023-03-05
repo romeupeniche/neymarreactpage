@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+#img2011-1, #img2011-2, #img2011-3 {
+    border-radius: 10px;
+    border: solid 2px;
+}
+
+#img2011-1 {
+    justify-self: end;
+    border-color: #247BA0;
+    grid-area: image1;
+}
+
+#img2011-2 {
+    border-color: #79C99E;
+    grid-area: image2;
+}
+
+#img2011-3 {
+    justify-self: end;
+    border-color: #247BA0;
+    grid-area: image3;
+}
+
+#div2011 * {
+    margin: 30px;
+}
+
+#title2011 {
+    text-align: left;
+    grid-area: title;
+    font-size: 3.9rem;
+}
+
+#year {
+    margin: 0;
+    color: #247BA0;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+#div2011 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "image1 title"
+    "image1 text1"
+    "text2-3 image2"
+    "image3 text4"
+    "references footer";
+}
+
+
+#timeline-footer, #timeline-footer-ref {
+    margin: 0;
+}
+
+#div2011 .reference {
+    margin: 0;
+    color: #79C99E;
+}
+
+#text2011-1, #text2011-2-3, #text2011-4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+#text2011-1 {
+    grid-area: text1;
+    
+}
+
+#text2011-2-3 {
+    grid-area: text2-3;
+}
+
+#text2011-2-3 .text2011-2-3-div {
+    margin: 0 0 20px 0;
+}
+
+#text2011-4 {
+    grid-area: text4;
+}
+
+#timeline-footer-img {
+    justify-self: end;
+    grid-area: footer;
+    margin: 0;
+}
+
+#timeline-footer-img-ref {
+    margin: 10px;
+}
+
+#div2011 .blue-emph {
+    margin: 0;
+    font-size: 2.2rem;
+    color: #247BA0;
+    font-weight: 590;
+}

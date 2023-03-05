@@ -11,6 +11,7 @@ import Home from './routes/Home';
 import TimeLine from './routes/TimeLine';
 import ErrorPage from './routes/ErrorPage';
 import First from './routes/imgRoutes/First';
+import Second from './routes/imgRoutes/Second';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: 'timeline/2010',
         element: <First />
+      },
+      {
+        path: 'timeline/2011',
+        element: <Second />
       }
     ]
   }
@@ -41,8 +46,4 @@ root.render(
     <RouterProvider router={router}/>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
