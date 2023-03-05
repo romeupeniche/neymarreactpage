@@ -18,23 +18,23 @@ function Content() {
         )
     }
 
-    function imageRoullete(e) {
-        if (e.target.classList == 'image') {
-            const imgsRoulleteArray = imgsRoullete[e.target.alt]
-            // imageRoullete2(imgsRoulleteArray, imageSrc, k)
-            let k = 0;
-            const interval = setInterval(() => {
-                if (k == 3) {
-                    clearInterval(interval);
-                    console.log('clear!')
-                    k = 0;
-                } else k++
-                e.target.src = imgsRoulleteArray[k];
-                console.log('teste')
-                console.log(k)
-            }, 2000);
-        }
-    }
+    // function imageRoullete(e) {
+    //     if (e.target.classList == 'image') {
+    //         const imgsRoulleteArray = imgsRoullete[e.target.alt]
+    //         // imageRoullete2(imgsRoulleteArray, imageSrc, k)
+    //         let k = 0;
+    //         const interval = setInterval(() => {
+    //             if (k == 3) {
+    //                 clearInterval(interval);
+    //                 console.log('clear!')
+    //                 k = 0;
+    //             } else k++
+    //             e.target.src = imgsRoulleteArray[k];
+    //             console.log('teste')
+    //             console.log(k)
+    //         }, 2000);
+    //     }
+    // }
 
     let imgContainer = document.getElementsByClassName('img-container');
     function toggleBlurOnHover() {
@@ -50,19 +50,20 @@ function Content() {
         }
     }
 
-    function elementMouseOn(event) {
-        toggleBlurOnHover();
-        imageRoullete(event)
-    }
+    // function elementMouseOn(event) {
+    //     toggleBlurOnHover();
+    //     imageRoullete(event)
+    // }
 
-    function elementMouseOut() {
-        toggleBlurOnHover();
-        clearInterval(imageRoullete)
-    }
+    // function elementMouseOut() {
+    //     toggleBlurOnHover();
+    //     clearInterval(imageRoullete)
+    // }
     return (
         <>
             <p className='timeline-title'>Cabelos do Neymar: A Linha Do Tempo</p>
-            <nav className='content' onMouseOver={event => elementMouseOn(event)} onMouseOut={elementMouseOut}>
+            <nav className='content'>
+            {/* onMouseOver={event => elementMouseOn(event)} onMouseOut={elementMouseOut}  */}
                 {returnArray}
             </nav>
         </>
