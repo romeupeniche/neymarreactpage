@@ -11,7 +11,7 @@ function Content() {
     for (let i in imgs) {
         returnArray.push(
             <>
-                <Link className='link-img' to={i}>
+                <Link className='link-img' to={i} >
                     <Img className='img' link={imgs[i]} alt={i} />
                 </Link>
             </>

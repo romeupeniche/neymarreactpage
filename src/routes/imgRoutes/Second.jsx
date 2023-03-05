@@ -13,15 +13,15 @@ function Second () {
             </div>
             <div id='text2011-2-3'>
                 <div className='text2011-2-3-div'>
-                    Um ano de mais evoluções em campo para Neymar, nesse ano, ele ganhava a Copa Libertadores da América jogando pelo seu time na época, o Santos.
+                    Um ano de mais evoluções em campo para Neymar, nesse ano, ele ganhava a Copa Libertadores da América jogando pelo seu time na época, o Santos, marcando na final, e levando o troféu de Homem do Jogo pra casa. Classificando assim, o Santos para o Mundial de Clubes da Fifa naquele mesmo ano.
                 </div>
                 <div className='text2011-2-3-div'>
-                    Segundo o site <a className='reference' href="https://www.transfermarkt.us/neymar/leistungsdaten/spieler/68290/saison/2011/plus/1#gesamt">Transfermarkt</a>, de 21 jogos no Campeonato Brasileiro da Série A, ele participou em 11 deles, desses, perdendo apenas 2 jogos. <br />
-                    Na Libertadores que foi seu grande brilho, de 13 jogos, perdeu apenas 1, e participou em 9 deles.
+                No Campeonato Brasileiro da Série A, de 17 jogos que ele jogou, ele participou em 11 deles, com uma média de 0.8 gols por partida, e uma média de 1.2 gols + assistências.
+                ---Libertadores.
                 </div>
             </div>
             <div id='text2011-4'>
-                
+                Neymar nesse ano classificava seu time para a final do Mundial da Fifa, marcando para seu time na semifinal, porém perdendo de 4x0 para o Barcelona na final.
             </div>
         </div>
     )
