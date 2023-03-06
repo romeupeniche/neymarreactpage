@@ -7,6 +7,8 @@
     border-radius: 5px;
     text-align: center;
     box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    position: relative;
 }
 
 .image {
@@ -14,6 +16,21 @@
     height: 350px;
     object-fit: cover;
     border-radius: 5px;
+
+    position: absolute;
+    border-radius: 10px;
+
+    transition: 1s;
+    margin-left: -175px;
+}
+
+.inside-img-container {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    
+    margin: 0 auto;
 }
 
 p.inner-text { 
@@ -35,3 +52,9 @@ p.inner-text {
         font-size: 3.3vw;
     }
 }
+
+.z {opacity: 0;}
+.fst {z-index: 3;}
+.snd {z-index: 2;}
+.trd {z-index: 1;}
+.fth {z-index: 0;}

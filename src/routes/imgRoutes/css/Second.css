@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
 #img2011-1, #img2011-2, #img2011-3 {
     border-radius: 10px;
     border: solid 2px;
@@ -98,4 +96,10 @@
     font-size: 2.2rem;
     color: #247BA0;
     font-weight: 590;
+}
+#div2011 .gold-emph {
+    margin: 0;
+    font-size: 2.2rem;
+    color: #FFB800;
+    font-weight: bold;
 }

@@ -6,7 +6,7 @@ export default () => {
             <h1 id='title2010'>Neymar JR's Overall in <span id='year'>2010</span></h1>
             <img id='img2010-1' src="https://media.gettyimages.com/id/535245450/photo/young-brazilian-player-neymar-in-action-for-santos-during-the-fluminense-v-santos-futebol.jpg?s=612x612&w=0&k=20&c=JqWX7lep2ec5MQ4TXJDOPm3hNxToSaJdqYF_uP7bwSQ=" alt="2010" />
             <div id='text2010-1'>
-                Este foi um ano <span className='blue-emph'>inesquecível</span> para Neymar Jr. Sendo notado pelo mundo, convocado pela Seleção Brasileira vestindo a 11, porém, ficou de fora da Copa deste ano.
+                Este foi um ano <span className='blue-emph'>inesquecível</span> para Neymar Jr. Sendo notado pelo mundo, convocado pela Seleção Brasileira pela primeira vez vestindo a 11, porém, ficou de fora da Copa deste ano.
             </div>
             <img id='img2010-2' src="https://media.gettyimages.com/id/107371301/photo/neymar-of-santos-is-elected-the-best-striker-during-the-craque-do-brasileir%C3%A3o-award-2010-held.jpg?s=612x612&w=0&k=20&c=RnW6UA9s6bSNLIfHYdmxVb01xJ7Z539ZB9I7U-AU9D4=" alt="2010" />
             <div id='text2010-2-3'>

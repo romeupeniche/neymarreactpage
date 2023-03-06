@@ -13,15 +13,19 @@ function Second () {
             </div>
             <div id='text2011-2-3'>
                 <div className='text2011-2-3-div'>
-                    Um ano de mais evoluções em campo para Neymar, nesse ano, ele ganhava a Copa Libertadores da América jogando pelo seu time na época, o Santos, marcando na final, e levando o troféu de Homem do Jogo pra casa. Classificando assim, o Santos para o Mundial de Clubes da Fifa naquele mesmo ano.
+                    Um ano de mais evoluções em campo para Neymar, nesse ano, ele ganhava a Copa Libertadores da América jogando pelo seu time na época, 
+                    o Santos, marcando na final, e levando o troféu de Homem do Jogo, e de Melhor Jogador da Copa pra casa.
                 </div>
                 <div className='text2011-2-3-div'>
-                No Campeonato Brasileiro da Série A, de 17 jogos que ele jogou, ele participou em 11 deles, com uma média de 0.8 gols por partida, e uma média de 1.2 gols + assistências.
-                ---Libertadores.
+                Na Libertadores o troféu de Melhor Jogador não veio à toa, com 12 jogos, e um total de 8 gols e 3 assistências, Neymar garantiu que o time 
+                se classificasse para o Mundial da Fifa pela primeira vez.
                 </div>
             </div>
             <div id='text2011-4'>
-                Neymar nesse ano classificava seu time para a final do Mundial da Fifa, marcando para seu time na semifinal, porém perdendo de 4x0 para o Barcelona na final.
+                Neymar nesse ano classificava seu time para a final do Mundial da Fifa, marcando para seu time na semifinal, porém perdendo de 4x0 para o 
+                Barcelona na final. <br /> <br />
+                Naquele ano, Neymar também ganhou um troféu que marcou sua história, o <span className='gold-emph'>prêmio Puskás</span>. Acompanhando este, 
+                também houve vários outros prêmios que Neymar ganhava naquele mesmo ano.
             </div>
         </div>
     )

@@ -12,6 +12,10 @@
     justify-self: center;
     margin-bottom: 60px;
     text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-container.blur {

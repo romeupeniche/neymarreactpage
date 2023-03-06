@@ -4,15 +4,13 @@ import imgs from '../consts/imgs'
 import { Link } from 'react-router-dom';
 import imgsRoullete from '../consts/imgsRoullet.json';
 
-
-
 function Content() {
     const returnArray = [];
     for (let i in imgs) {
         returnArray.push(
             <>
                 <Link className='link-img' to={i} >
-                    <Img className='img' link={imgs[i]} alt={i} />
+                    <Img className='img' link={imgs[i][1]} link2={imgs[i][2]} link3={imgs[i][3]} link4={imgs[i][4]} alt={i} />
                 </Link>
             </>
         )
@@ -36,19 +34,19 @@ function Content() {
     //     }
     // }
 
-    let imgContainer = document.getElementsByClassName('img-container');
-    function toggleBlurOnHover() {
-        if (document.querySelector(".img-container:hover") != null) {
-            Array.from(imgContainer).forEach(element => {
-                element.classList.add('blur');
-            });
-        }
-        if (document.querySelector(".img-container:hover") == null) {
-            Array.from(imgContainer).forEach(element => {
-                element.classList.remove('blur');
-            });
-        }
-    }
+    // let imgContainer = document.getElementsByClassName('img-container');
+    // function toggleBlurOnHover() {
+    //     if (document.querySelector(".img-container:hover") != null) {
+    //         Array.from(imgContainer).forEach(element => {
+    //             element.classList.add('blur');
+    //         });
+    //     }
+    //     if (document.querySelector(".img-container:hover") == null) {
+    //         Array.from(imgContainer).forEach(element => {
+    //             element.classList.remove('blur');
+    //         });
+    //     }
+    // }
 
     // function elementMouseOn(event) {
     //     toggleBlurOnHover();
@@ -59,11 +57,12 @@ function Content() {
     //     toggleBlurOnHover();
     //     clearInterval(imageRoullete)
     // }
+
     return (
         <>
             <p className='timeline-title'>Cabelos do Neymar: A Linha Do Tempo</p>
-            <nav className='content'>
-            {/* onMouseOver={event => elementMouseOn(event)} onMouseOut={elementMouseOut}  */}
+            <nav className='content' >
+                {/* onMouseOver={event => elementMouseOn(event)} onMouseOut={elementMouseOut}  */}
                 {returnArray}
             </nav>
         </>

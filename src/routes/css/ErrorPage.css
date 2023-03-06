@@ -1,0 +1,33 @@
+#error-h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 15vh;
+}
+
+#error-p {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    line-height: 30px;
+    font-size: 2rem;
+}
+
+#error-link-p {
+    margin: 0 auto;
+    max-width: fit-content;
+    border: 2px solid #247BA0;
+    padding: 10px;
+    font-size: 2rem;
+    color: #1d1e20;
+    transition: 0.5s;
+}
+
+#error-link-p:hover {
+    background-color: #247BA0;
+    transform: scale(1.05);
+    color: white;
+}
+
+#error-link {
+    text-decoration: none;
+}
