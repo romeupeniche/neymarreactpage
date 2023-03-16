@@ -9,13 +9,13 @@
 }
 
 .link-img {
-    justify-self: center;
     margin-bottom: 60px;
     text-decoration: none;
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin: 0 auto 60px auto;
+    width: fit-content;
 }
 
 .img-container.blur {

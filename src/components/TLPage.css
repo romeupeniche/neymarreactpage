@@ -1,0 +1,191 @@
+/* General */
+
+#g-page-div #year {
+    margin: 0;
+    color: var(--blue-color);
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+#g-page-div .blue-emph {
+    margin: 0;
+    font-size: 2rem;
+    color: var(--blue-color);
+    font-weight: 600;
+}
+
+#g-page-div .gold-emph {
+    margin: 0;
+    font-size: 2rem;
+    color: var(--gold-color);
+    font-weight: bold;
+}
+
+#g-page-div .red-emph {
+    margin: 0;
+    font-size: 2rem;
+    color: var(--red-color);
+    font-weight: bold;
+}
+
+/* For Google Translate */
+#g-page-div font {
+    margin: 0;
+}
+
+
+#g-page-div * {
+    margin: 30px;
+}
+
+#g-page-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+#g-page-div h1 {
+    grid-area: title;
+    font-size: 3.9rem;
+}
+
+#g-page-div img {
+    border-radius: 10px;
+    border: solid 2px;
+    width: 90%;
+}
+
+#g-page-div p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
+    line-height: 60px;
+    align-self: center;
+}
+
+#g-page-div #page-img1 {
+    grid-area: image1;
+    border-color: var(--blue-color);
+}
+
+#g-page-div #page-img2 {
+    grid-area: image2;
+    border-color: var(--green-color);
+}
+
+#g-page-div #page-img3 {
+    grid-area: image3;
+    border-color: var(--blue-color);
+}
+
+
+
+#page-text1 {
+    grid-area: text1;
+    text-align: center;
+}
+
+#page-text2 {
+    grid-area: text2;
+    text-align: center;
+}
+
+#page-text3 {
+    grid-area: text3;
+    text-align: center;
+}
+
+
+
+@media (max-width: 1400px) {
+    #page-title {
+        text-align: center;
+        font-size: 4.2rem;
+    }
+
+    #g-page-div #page-img2,
+    #g-page-div #page-img3 {
+        width: 60vw;
+        justify-self: center;
+    }
+
+    #page-text1,
+    #page-text2,
+    #page-text3 {
+        line-height: 50px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #g-page-div {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "title"
+            "image1"
+            "text1"
+            "image2"
+            "text2"
+            "image3"
+            "text3"
+    }
+
+    #g-page-div #page-img1,
+    #g-page-div #page-img2,
+    #g-page-div #page-img3 {
+        width: 80vw;
+        justify-self: center;
+    }
+
+    #g-page-div #page-title {
+        font-size: 8vw;
+    }
+
+    #g-page-div #page-text1,
+    #g-page-div #page-text2,
+    #g-page-div #page-text3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* For normal pages */
+
+.page-div {
+    grid-template-areas:
+        "title image1"
+        "text1 image1"
+        "image2 text2"
+        "text3 image3";
+}
+
+@media(max-width: 1400px) {
+    .page-div {
+        grid-template-areas:
+            "title title"
+            "text1 image1"
+            "image2 image2"
+            "text2 text2"
+            "image3 image3"
+            "text3 text3"
+    }
+}
+
+/* For reverse pages */
+
+.page-div-r {
+    grid-template-areas:
+        "image1 title"
+        "image1 text1"
+        "text2 image2"
+        "image3 text3";
+}
+
+@media(max-width: 1400px) {
+    .page-div-r {
+        grid-template-areas:
+            "title title"
+            "image1 text1"
+            "image2 image2"
+            "text2 text2"
+            "image3 image3"
+            "text3 text3"
+    }
+}

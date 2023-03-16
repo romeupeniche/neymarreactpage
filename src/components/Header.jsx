@@ -1,6 +1,6 @@
 import './Header.css';
-import logo from '../files/njrLogo.png';
 import { Link } from 'react-router-dom';
+import logo from '../static/images/njr-logo.png'
 
 function Header() {
     return (
@@ -10,14 +10,14 @@ function Header() {
             </Link>
             <nav>
                 <ul className='menu'>
-                    <Link className='nav-item' to='timeline'>
+                    <Link className='nav-item' id='pics' to='timeline'>
                         <li className="navigation">
-                            Pics
+                            Timeline
                         </li>
                     </Link>
                     <Link className='nav-item' to='/'>
                         <li className="navigation">
-                            Início
+                            Home
                         </li>
                     </Link>
                 </ul>

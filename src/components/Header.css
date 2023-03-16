@@ -9,13 +9,14 @@ ul.menu,
 }
 
 .header {
-    background-color: #1d1e20;
-    color: #247BA0;
+    background-color: var(--header-color);
+    color: var(--blue-color);
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
     flex-wrap: wrap;
     align-items: center;
+    border-bottom: 3px solid var(--blue-color);
 }
 
 .menu {
@@ -29,12 +30,12 @@ ul.menu,
 }
 
 .nav-item:hover {
-    background-color: #247BA0;
+    background-color: var(--blue-color);
     scale: 1.1;
 }
 
 .nav-item:hover .navigation {
-    color: #1d1e20;
+    color: var(--header-color);
 }
 
 .logo > img {
@@ -43,5 +44,11 @@ ul.menu,
 
 .nav-item, .navigation {
     transition: 0.5s;
-    color: #247BA0;
+    color: var(--blue-color);
+}
+
+@media (max-width: 600px) {
+    #pics {
+        display: none;
+    }
 }

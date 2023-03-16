@@ -1,35 +1,38 @@
 import './Img.css'
 
 function Img(props) {
-
     var count = -1
-    var isExec = false
     let slideInterval, slideTime = 1500;
     function changeImg(year) {
-        if (isExec) return
-        isExec = true;
-        
         let container = null
         Array.from(document.getElementsByClassName('inside-img-container')).forEach(elem => {
-            if (elem.children[0].alt == year) {
+            if (elem.children[0].alt === year) {
                 container = elem
             }
         })
 
         slideInterval = setInterval(() => {
             ++count
-            if (count == 3) {
+            if (count === 3) {
                 count = -1;
                 Array.from(document.getElementsByClassName('z')).forEach((elem) => {
                     elem.classList.remove('z')
                 })
                 clearInterval(slideInterval)
-                isExec = false;
             } else {
+                let pathname = window.location.pathname
 
-                if (container.children[0].alt == year) {
-                    container.children[count].classList.add('z')
-                }
+                if (pathname === "/timeline") {
+                    if (container.children[0].alt === year) {
+                        container.children[count].classList.add('z')
+                    } else {
+                        clearTimeout(hoverTimeout)
+                        clearInterval(slideInterval)
+                    }
+                } else {
+                    clearTimeout(hoverTimeout)
+                    clearInterval(slideInterval)
+                };
             }
         }, slideTime)
     }
@@ -44,7 +47,8 @@ function Img(props) {
     function stopChangeImg() {
         clearTimeout(hoverTimeout)
         clearInterval(slideInterval)
-        Array.from(document.getElementsByClassName('z')).forEach((elem) => {
+        count = -1
+        Array.from(document.getElementsByClassName('z')).forEach(elem => {
             elem.classList.remove('z')
         })
     }
@@ -57,7 +61,7 @@ function Img(props) {
                 <img className='image trd' src={props.link3} alt={props.alt} />
                 <img className='image fth' src={props.link4} alt={props.alt} />
             </div>
-            <p className='inner-text'>{`Cabelo do Neymar em ${props.alt}`}</p>
+            <p className='inner-text'>{`Neymar's hair in ${props.alt}`}</p>
         </div>
     )
 }
