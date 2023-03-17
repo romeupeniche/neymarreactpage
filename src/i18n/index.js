@@ -5,6 +5,7 @@ import ptBR from './translations/ptBR.json';
 
 i18n.use(initReactI18next).init({
     fallbackLng: "ptBR",
+    // fallbackLng: "en",
     interpolation: {
         escapeValue: false
     },

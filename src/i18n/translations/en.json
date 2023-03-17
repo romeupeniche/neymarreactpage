@@ -1,51 +1,55 @@
 {
     "translation": {
-        "2010text1": "",
-        "2010text2": "",
-        "2010text3": "",
 
-        "2011text1": "",
-        "2011text2": "",
-        "2011text3": "",
-
-        "2012text1": "",
-        "2012text2": "",
-        "2012text3": "",
-
-        "2013text1": "",
-        "2013text2": "",
-        "2013text3": "",
-
-        "2014text1": "",
-        "2014text2": "",
-        "2014text3": "",
-
-        "2015text1": "",
-        "2015text2": "",
-        "2015text3": "",
-
-        "2016text1": "",
-        "2016text2": "",
-        "2016text3": "",
-
-        "2017text1": "",
-        "2017text2": "",
-        "2017text3": "",
-
-        "2018text1": "",
-        "2018text2": "",
-        "2018text3": "",
-
-        "2019text1": "",
-        "2019text2": "",
-        "2019text3": "",
-
-        "2020text1": "",
-        "2020text2": "",
-        "2020text3": "",
-
-        "2021text1": "",
-        "2021text2": "",
-        "2021text3": ""
+        "timelineText": {
+            "timelineTitle": "Neymar Jr's Overall in ",
+            "2010text1": "Being noticed by the world, called up by the Brazilian National Team for the first time wearing the 11, however, was left out of this year's Cup.",
+            "2010text2": "Neymar wore a mohawk, with shaved sides, keeping it natural. <br /> Of 21 games in the 'Campeonato Brasileiro da Série A', he participated (in goals) in 11 of them, of those, losing only 2 games. <br /> In Libertadores, which was his greatest shine, out of 13 games, he lost only 1, and participated in 9 of them.",
+            "2010text3": "That year, Neymar won <span class='blue-emph'>awards</span> for: <span class='gold-emph'>Best Player</span> and <span class='gold-emph'>Best Second Striker</span> of the <span class='blue-emph'>'Campeonato Paulista'</span>, <span class='gold-emph'>Silver Ball</span> and <span class='gold-emph'>Golden Boot</span> from <span class='blue-emph'>'Revista Placar'</span >, etc. <br /> He also won the <span class='gold-emph'>'Campeonato Paulista'</span>, and the <span class='gold-emph'>'Copa do Brasil'</span> for his team at the time , Santos.",
+    
+            "2011text1": "Neymar dyed his hair for the first time. And along with that came several other <span class='blue-emph'>achievements</span> for Neymar Jr's career.",
+            "2011text2": "A year of more evolutions on the pitch for Neymar. That year he won the <span class='gold-emph'>Copa Libertadores de América</span> playing for his then team, Santos, scoring in the final and taking the trophy for Man of the Match and Best Player of the Cup.",
+            "2011text3": "Santos that year qualified for the FIFA Club World Cup final, but lost 4-0 to Barcelona. <br /> That year, Neymar also won a trophy that marked his history, the <span class='gold-emph'>Puskas award</span>. Accompanying this, there were also several other awards he won that same year.",
+    
+            "2012text1": "",
+            "2012text2": "",
+            "2012text3": "",
+    
+            "2013text1": "",
+            "2013text2": "",
+            "2013text3": "",
+    
+            "2014text1": "",
+            "2014text2": "",
+            "2014text3": "",
+    
+            "2015text1": "",
+            "2015text2": "",
+            "2015text3": "",
+    
+            "2016text1": "",
+            "2016text2": "",
+            "2016text3": "",
+    
+            "2017text1": "",
+            "2017text2": "",
+            "2017text3": "",
+    
+            "2018text1": "",
+            "2018text2": "",
+            "2018text3": "",
+    
+            "2019text1": "",
+            "2019text2": "",
+            "2019text3": "",
+    
+            "2020text1": "",
+            "2020text2": "",
+            "2020text3": "",
+    
+            "2021text1": "",
+            "2021text2": "",
+            "2021text3": ""
+        }
     }
 }

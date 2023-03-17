@@ -1,51 +1,55 @@
 {
     "translation": {
-        "2010text1": "Sendo notado pelo mundo, convocado pela Seleção Brasileira pela primeira vez vestindo a 11, porém, ficou de fora da Copa deste ano.",
-        "2010text2": "Neymar aderia à um moicano, com laterais raspadas, mantendo-o natural. <br /> De 21 jogos no Campeonato Brasileiro da Série A, ele participou em 11 deles, desses, perdendo apenas 2 jogos. <br /> Na Libertadores que foi seu grande brilho, de 13 jogos, perdeu apenas 1, e participou em 9 deles.",
-        "2010text3": "Nesse ano, Neymar ganhava <span class='blue-emph'>prêmios</span> de: Melhor jogador do Campeonato Paulista, melhor segundo atacante do Campeonato Paulista, Bola de Prata e Chuteira de Ouro da Revista Placar, entre outros. <br /> Ganhava também o Campeonato Paulista, e a Copa do Brasil pelo seu time da época, o Santos.",
-
-        "2011text1": "Neymar pintava seu cabelo pela primeira vez. E junto com isso, veio várias outras <span class='blue-emph'>conquistas</span> para a carreira de Neymar Jr.",
-        "2011text2": "Um ano de mais evoluções em campo para Neymar. Nesse ano ele ganhava a <span class='gold-emph'>Copa Libertadores da América</span> jogando pelo seu time na época, o Santos, marcando na final, e levando o troféu de Homem do Jogo, e de Melhor Jogador da Copa pra casa.",
-        "2011text3": "O Santos nesse ano se classificava para a final do Mundial da FIFA, porém perdia de 4x0 para o Barcelona. <br /> Naquele ano, Neymar também ganhava um troféu que marcou sua história, o <span class='gold-emph'>prêmio Puskás</span>. Acompanhando este, também haviam vários outros prêmios que ganhava naquele mesmo ano.",
-
-        "2012text1": "",
-        "2012text2": "",
-        "2012text3": "",
-
-        "2013text1": "",
-        "2013text2": "",
-        "2013text3": "",
-
-        "2014text1": "",
-        "2014text2": "",
-        "2014text3": "",
-
-        "2015text1": "",
-        "2015text2": "",
-        "2015text3": "",
-
-        "2016text1": "",
-        "2016text2": "",
-        "2016text3": "",
-
-        "2017text1": "",
-        "2017text2": "",
-        "2017text3": "",
-
-        "2018text1": "",
-        "2018text2": "",
-        "2018text3": "",
-
-        "2019text1": "",
-        "2019text2": "",
-        "2019text3": "",
-
-        "2020text1": "",
-        "2020text2": "",
-        "2020text3": "",
-
-        "2021text1": "",
-        "2021text2": "",
-        "2021text3": ""
+        
+        "timelineText": {
+            "timelineTitle": "Geral de Neymar Jr em ",
+            "2010text1": "Sendo notado pelo mundo, convocado pela Seleção Brasileira pela primeira vez vestindo a 11, porém, ficou de fora da Copa deste ano.",
+            "2010text2": "Neymar aderia à um moicano, com laterais raspadas, mantendo-o natural. <br /> De 21 jogos no Campeonato Brasileiro da Série A, ele participou (em gols) em 11 deles, desses, perdendo apenas 2 jogos. <br /> Na Libertadores que foi seu grande brilho, de 13 jogos, perdeu apenas 1, e participou em 9 deles.",
+            "2010text3": "Nesse ano, Neymar ganhava <span class='blue-emph'>prêmios</span> de: <span class='gold-emph'>Melhor Jogador</span> e <span class='gold-emph'>Melhor Segundo Atacante</span> do <span class='blue-emph'>Campeonato Paulista</span>, <span class='gold-emph'>Bola de Prata</span> e <span class='gold-emph'>Chuteira de Ouro</span> da <span class='blue-emph'>Revista Placar</span>, entre outros. <br /> Ganhava também o <span class='gold-emph'>Campeonato Paulista</span>, e a Copa do Brasil pelo seu time da época, o Santos.",
+    
+            "2011text1": "Neymar pintava seu cabelo pela primeira vez. E junto com isso, veio várias outras <span class='blue-emph'>conquistas</span> para a carreira de Neymar Jr.",
+            "2011text2": "Um ano de mais evoluções em campo para Neymar. Nesse ano ele ganhava a <span class='gold-emph'>Copa Libertadores da América</span> jogando pelo seu time na época, o Santos, marcando na final, e levando o troféu de Homem do Jogo, e de Melhor Jogador da Copa pra casa.",
+            "2011text3": "O Santos nesse ano se classificava para a final do Mundial de Clubes da FIFA, porém perdia de 4x0 para o Barcelona. <br /> Naquele ano, Neymar também ganhava um troféu que marcou sua história, o <span class='gold-emph'>prêmio Puskás</span>. Acompanhando este, também haviam vários outros prêmios que ganhava naquele mesmo ano.",
+    
+            "2012text1": "Aderindo para um estilo de moicano com uma franja, além de usar uma faixa em alguns jogos, Neymar seguia sendo observado por outros times, como Barcelona, além de muitas <span class='blue-emph'>vitórias</span>.",
+            "2012text2": "Por conta da vitória na Copa Libertadores da América no ano passado, o Santos se classificava para a <span class='gold-emph'>Recopa Sudamericana</span>, a qual vencia em cima do Universidad de Chile, deixando o seu gol e sendo o Melhor Jogador do campeonato.",
+            "2012text3": "Classificados para as Olimpíadas de Futebol em Londres, graças a vitória do Brasil no Campeonato Sul-Americano Sub-20 de 2011, o qual Neymar ficava na artilharia disparado com 9 gols, o Brasil se classificava para a final. Neymar vinha com 3 gols e 4 assistências em 6 jogos, porém, perdia de 2:1, garantindo assim a medalha de prata para o Brasil.",
+    
+            "2013text1": "No ano de 2013 a carreira de Neymar tomava outro rumo. Ele estava em direção à Cataluña, iniciando sua carreira na Europa, no Barcelona.",
+            "2013text2": "No Barcelona, não foi difícil para Neymar se entrosar com o elenco. Demonstrando suas habilidades e o porquê de sua contratação, Neymar garantia a <span class='gold-emph'>Supercopa</span> para o Barcelona, entrando aos 14' do segundo tempo e marcando fora de casa, vencendo pela regra de gols fora de casa, o Atlético de Madrid.",
+            "2013text3": "No Brasil, Neymar provou ser uma promessa brasileira mais uma vez, garantindo a <span class='gold-emph'>Copa das Confederações</span>, participando de <span class='blue-emph'>todos</span> os gols, com 4 gols e 2 assistências em 5 jogos, e vencendo a Espanha na final com um lindo 3x0.",
+    
+            "2014text1": "2014 vinha com a sua primeira <span class='blue-emph'>Copa do Mundo</span>, e seu início na Europa, porém, algo mais a frente faria desse ano um susto para ele.",
+            "2014text2": "Vinha se formando o trio MSN, formado por Messi, Suárez e Neymar, o trio de ataque do Barcelona que vinha causando medo nos zagueiros dos times adversários. Além do altíssimo desempenho de Neymar nas partidas, principalmente da UEFA Champions League.",
+            "2014text3": "Nas Quartas de Final da <span class='blue-emph'>Copa do Mundo no Brasil</span>, Neymar sofria uma falta gravíssima. Um zagueiro da Colômbia dava uma joelhada nas costas de Neymar, <span class='red-emph'>fraturando uma de suas vértebras</span>, tirando Neymar da copa. Segundo o próprio jogador, se tivesse sido 2 centímetros para o lado, ele não andaria mais.",
+    
+            "2015text1": "Ano de <span class='gold-emph'>ouro</span> para Neymar, muitas vitórias conquistadas com o <span class='gold-emph'>Melhor Time do Mundo</span> segundo a IFFHS naquele ano.",
+            "2015text2": "Com o desempenho gigante de Neymar na <span class='gold-emph'>Champions</span>, o Barcelona levava a orelhuda para casa. O trio MSN seguia assustando muitos times, com a Juventus não foi diferente, com gols de Rakitić, Suárez e Neymar, o Barcelona vencia por 3x1.",
+            "2015text3": "Além da Champions, o Barcelona também levava o <span class='gold-emph'>Campeonato Espanhol</span>, <span class='gold-emph'>Copa del Rey</span>, e a <span class='gold-emph'>Copa do Mundo de Clubes da FIFA</span>. Com desempenhos <span class='blue-emph'>excelentes</span> de Neymar e seu trio, que já se tornava o melhor trio de ataque do mundo.",
+    
+            "2016text1": "Outro ano de diversas conquistas para o Menino Ney, vinha com altíssimos desempenhos atuando pela Seleção Brasileira e Barcelona.",
+            "2016text2": "Pelo Barcelona, Neymar e sua equipe levavam a <span class='gold-emph'>Copa del Rey</span>, sem perder nenhum jogo, e em todos os jogos que Neymar participava, ele participava em gols. <br /> Mas foi pela <span class='blue-emph'>Seleção Brasileira</span> que Neymar se destacava naquele ano, garantindo a vaga do Brasil na Copa do Mundo de 2018.",
+            "2016text3": "Neymar também conquistava o <span class='gold-emph'>Ouro nas Olímpiadas de Futebol Masculino</span> pela <span class='blue-emph'>primeira</span> vez para o Brasil, sendo o capitão, demonstrando como sempre seu incrível desempenho, sendo crucial principalmente na final contra a Alemanha, marcando o último pênalti, garantindo Ouro para o Brasil.",
+    
+            "2017text1": "Ano de mudanças para Neymar, que se mudava para Paris, e por 222 milhões de Euros, se tornava o jogador mais caro a ser vendido.",
+            "2017text2": "Antes de se transferir para o PSG, Neymar teve muitas vitórias pelo Barcelona nesse ano. Conquistava mais uma <span class='gold-emph'>Copa del Rey</span>, e com o <span class='blue-emph'>'impossível'</span> 6x1 em cima do PSG pela Champions League, mesmo perdendo para a Juventus nas Quartas de Final, deixava a goleada marcada na história.",
+            "2017text3": "Neymar se mudava de país, de time, e com isso, de elenco. Mas também não foi muito complicado para Neymar se acostumar com os novos companheiros de equipe, formando um novo trio de ataque com Cavani e Mbappé.",
+    
+            "2018text1": "Ano marcado principalmente pela <span class='blue-emph'>Copa do Mundo</span>, que Neymar jogava pela primeira vez de forma completa.",
+            "2018text2": "Na Copa, Neymar apresentava um ótimo desempenho, mesmo sentindo dores após uma <span class='red-emph'>fratura no metatarso</span>, ganhando o troféu de <span class='blue-emph'>Homem do Jogo</span> na partida contra o México. Porém perdia para a Bélgica nas Quartas de Final, por 2x1, após uma partida sofrida, Neymar se despedia de outra copa do Mundo.",
+            "2018text3": "Pelo PSG, Neymar vinha conquistando títulos ao lado dos seus novos companheiros de equipe. Porém, a <span class='red-emph'>fratura no metatarso</span> o deixou fora dos gramados por 3 meses (antes da Copa do Mundo). Ganhou o prêmio de <span class='gold-emph'>Melhor Jogador da Ligue 1</span>, além de conquistar também o <span class='gold-emph'>Campeonato Francês</span>, a <span class='gold-emph'>Copa da Liga Francesa</span>, a <span class='gold-emph'>Copa da França</span> e a <span class='gold-emph'>Supercopa da França</span> nesse ano.",
+    
+            "2019text1": "Outro ano de muitas <span class='red-emph'>lesões</span> para o Menino Ney, que desde que chegava no PSG, ficou desfalcado em boa parte dos jogos.",
+            "2019text2": "A <span class='red-emph'>lesão no metatarso</span> o assombrava novamente, muito mais leve do que da outra vez, mas o mantendo fora dos campos por 3 meses. Na mesma temporada, no amistoso contra o Catar, Neymar <span class='red-emph'>rompeu os ligamentos do tornozelo</span> e não disputou a Copa América (mesmo que o Brasil tenha vencido), ficou 2 meses de recuperação.",
+            "2019text3": "Mesmo com mais de 20 desfalques, Neymar ainda conquistou títulos naquele ano. Os mesmo prêmios que Neymar conquistou no ano passado, Neymar conquistava nesse mesmo ano: O <span class='gold-emph'>Campeonato Francês</span>, a <span class='gold-emph'>Copa da Liga Francesa</span>, a <span class='gold-emph'>Copa da França</span> e a <span class='gold-emph'>Supercopa da França</span>.",
+    
+            "2020text1": "Ano com menos contusões para Neymar, que aderia um estilo diferente de antes, deixando a barba crescer e o cabelo baixinho.",
+            "2020text2": "Nas qualificatórias para a <span class='blue-emph'>Copa do Mundo de 2022</span>, Neymar demonstrava seu alto desempenho: nas 10 partidas que o craque jogou, fez 8 gols e 8 assistências, sem perder nenhum jogo sequer, garantindo a vaga do Brasil no Catar.",
+            "2020text3": "Ganhava todas as <span class='gold-emph'>taças da França</span>, assim como nos anos anteriores, porém, perdia a Final da <span class='blue-emph'>Champions League</span> por 1x0 contra o Bayern de Munique, sendo que a única Champions que Neymar havia ganhado foi em 2015 pelo Barcelona.",
+    
+            "2021text1": "Voltando para o estilo moicano, esse foi o ano que Neymar se reencontraria com seu antigo companheiro de equipe, Lionel Messi.",
+            "2021text2": "Na Seleção Brasileira, Neymar seguia jogando as qualificatórias para a <span class='blue-emph'>Copa do Mundo de 2022</span>, e jogava também a <span class='blue-emph'>Copa América</span>. Apesar do seu desempenho nas partidas, sofreu a derrota para a Argentina na Final, o impedindo de conquistar sua primeira Copa América.",
+            "2021text3": "No PSG, formava-se um trio de ataque monstruoso, composto por Neymar, Messi e Mbappé. Novamente ganhava o <span class='gold-emph'>Campeonato Francês</span>, a <span class='gold-emph'>Copa da França</span> e a <span class='gold-emph'>Supercopa da França</span>. Porém, não conseguia avançar muito na <span class='blue-emph'>Champions League</span>, e sofria de algumas contusões naquele mesmo ano."
+        }
     }
 }
