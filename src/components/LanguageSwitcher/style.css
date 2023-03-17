@@ -1,0 +1,22 @@
+/* #language-switcher {
+    background-color: tomato;
+} */
+
+#select-language {
+    font-size: 1rem;
+}
+
+.ls-button {
+    background-color: transparent;
+    border: none;
+    transition: .5s;
+}
+
+.ls-button img {
+    justify-content: center;
+    width: 40px;
+}
+
+.ls-button:hover {
+    scale: 1.1;
+}

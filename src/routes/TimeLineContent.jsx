@@ -2,8 +2,10 @@ import './css/TimeLineContent.css';
 import Img from '../components/Img';
 import imgs from '../static/imgs.json';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 function TimeLineContent() {
+    const { t } = useTranslation();
     const returnArray = 
     Array.from(Object.keys(imgs))
         .map(year => {
@@ -18,7 +20,7 @@ function TimeLineContent() {
 
     return (
         <>
-            <p className='timeline-title'>Neymar's hairs: The Timeline</p>
+            <p className='timeline-title'>{t("timelineHeader")}</p>
             <nav className='content' >
                 {returnArray}
             </nav>

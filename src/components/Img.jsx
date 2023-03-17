@@ -1,7 +1,9 @@
+import { useTranslation } from 'react-i18next';
 import './Img.css'
 
 function Img(props) {
-    var count = -1
+    const { t } = useTranslation();
+    let count = -1;
     let slideInterval, slideTime = 1500;
     function changeImg(year) {
         let container = null
@@ -61,7 +63,7 @@ function Img(props) {
                 <img className='image trd' src={props.link3} alt={props.alt} />
                 <img className='image fth' src={props.link4} alt={props.alt} />
             </div>
-            <p className='inner-text'>{`Neymar's hair in ${props.alt}`}</p>
+            <p className='inner-text'>{`${t("imgSubtitle")} ${props.alt}`}</p>
         </div>
     )
 }
