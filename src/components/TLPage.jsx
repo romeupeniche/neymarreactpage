@@ -21,4 +21,4 @@ function TLPage(props) {
         )
 }
 
-export default props => TLPage(props);
+export default TLPage;

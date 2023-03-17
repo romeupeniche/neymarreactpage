@@ -28,30 +28,30 @@ function Img(props) {
                     if (container.children[0].alt === year) {
                         container.children[count].classList.add('z')
                     } else {
-                        clearTimeout(hoverTimeout)
                         clearInterval(slideInterval)
                     }
                 } else {
-                    clearTimeout(hoverTimeout)
                     clearInterval(slideInterval)
                 };
             }
         }, slideTime)
     }
 
-    let hoverTimeout, hoverTime = 500;
     function runChangeImg(year) {
-        hoverTimeout = setTimeout(function () {
-            changeImg(year)
-        }, hoverTime);
+        changeImg(year)
+        Array.from(document.getElementsByClassName('img-container')).forEach(elem => {
+            elem.classList.add('blur')
+        })
     }
 
     function stopChangeImg() {
-        clearTimeout(hoverTimeout)
         clearInterval(slideInterval)
         count = -1
         Array.from(document.getElementsByClassName('z')).forEach(elem => {
             elem.classList.remove('z')
+        })
+        Array.from(document.getElementsByClassName('img-container')).forEach(elem => {
+            elem.classList.remove('blur')
         })
     }
 
@@ -68,4 +68,4 @@ function Img(props) {
     )
 }
 
-export default props => Img(props);
+export default Img;

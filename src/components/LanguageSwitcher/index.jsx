@@ -17,7 +17,7 @@ const languageOptions = [
 ]
 
 function LanguageSwitcher () {
-    const { t, i18n } = useTranslation();
+    const { i18n } = useTranslation();
 
     return (
         <div id='language-switcher'>
