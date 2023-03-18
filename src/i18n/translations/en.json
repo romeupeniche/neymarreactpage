@@ -1,5 +1,11 @@
 {
     "translation": {
+        "homeText1": "Projected by <a href='https://github.com/romeupeniche' target='_blank' rel='noreferrer'>Romeu Peniche</a>. <br /> <br /> A catalogue of Neymar Jr's career.",
+        "homeTitle": "Neymar's Flashback",
+        "homeText2": "Neymar da Silva Santos Júnior, known as Neymar, is a Brazilian soccer player who plays for Paris Saint-Germain and the Brazilian national team. He was born in São Paulo, Brazil, on February 5, 1992.",
+        "homeText3": "Playing soccer since the age of 11, Neymar was revealed by Santos' youth team, and has won the Libertadores, Champions League, and Olympics for his teams, as well as individual awards.",
+        "psgtext": "Since 2017",
+
         "timelineHeader": "Neymar's hairs: The Timeline",
         "imgSubtitle": "Neymar's hair in ",
         "headerHome": "Home",
@@ -9,7 +15,7 @@
             "timelineTitle": "Neymar Jr's Overall in ",
             "2010text1": "Being noticed by the world, called up by the Brazilian National Team for the first time wearing the 11, however, was left out of this year's Cup.",
             "2010text2": "Neymar wore a mohawk, with shaved sides, keeping it natural. <br /> Of 21 games in the 'Campeonato Brasileiro da Série A', he participated (in goals) in 11 of them, of those, losing only 2 games. <br /> In Libertadores, which was his greatest shine, out of 13 games, he lost only 1, and participated in 9 of them.",
-            "2010text3": "That year, Neymar won <span class='blue-emph'>awards</span> for: <span class='gold-emph'>Best Player</span> and <span class='gold-emph'>Best Second Striker</span> of the <span class='blue-emph'>'Campeonato Paulista'</span>, <span class='gold-emph'>Silver Ball</span> and <span class='gold-emph'>Golden Boot</span> from <span class='blue-emph'>'Revista Placar'</span >, etc. <br /> He also won the <span class='gold-emph'>'Campeonato Paulista'</span>, and the <span class='gold-emph'>'Copa do Brasil'</span> for his team at the time , Santos.",
+            "2010text3": "That year, Neymar won <span class='blue-emph'>awards</span> for: <span class='gold-emph'>Best Player</span> and <span class='gold-emph'>Best Second Striker</span> of the <span class='blue-emph'>'Campeonato Paulista'</span>, <span class='gold-emph'>Silver Ball</span> and <span class='gold-emph'>Golden Boot</span> from <span class='blue-emph'>'Revista Placar'</span>, etc. <br /> He also won the <span class='gold-emph'>'Campeonato Paulista'</span>, and the <span class='gold-emph'>'Copa do Brasil'</span> for his team at the time , Santos.",
     
             "2011text1": "Neymar dyed his hair for the first time. And along with that came several other <span class='blue-emph'>achievements</span> for Neymar Jr's career.",
             "2011text2": "A year of more evolutions on the pitch for Neymar. That year he won the <span class='gold-emph'>Copa Libertadores de América</span> playing for his then team, Santos, scoring in the final and taking the trophy for Man of the Match and Best Player of the Cup.",
@@ -28,7 +34,7 @@
             "2014text3": "In the Quarterfinals of the <span class='blue-emph'>World Cup in Brazil</span>, Neymar suffered a very serious foul. A Colombia defender would knee Neymar in the back, <span class='red-emph'>fracturing one of his vertebrae</span>, knocking Neymar out of the cup. According to the player himself, if it had been 2 centimeters to the side, he would not walk anymore.",
     
             "2015text1": "Year of <span class='gold-emph'>gold</span> for Neymar, many victories won with the <span class='gold-emph'>Best Team in the World</span> according to IFFHS that year.",
-            "2015text2": "With the giant performance of Neymar in the <span class='gold-emph'>Champions</span>, Barcelona took the big ear home. The MSN trio kept scaring many teams, with Juventus it was no different, with goals from Rakitić, Suárez and Neymar, Barcelona won 3-1.",
+            "2015text2": "With the giant performance of Neymar in the <span class='gold-emph'>Champions</span>, Barcelona took the trophy home. The MSN trio kept scaring many teams, with Juventus it was no different, with goals from Rakitić, Suárez and Neymar, Barcelona won 3-1.",
             "2015text3": "Besides the Champions, Barcelona also took the <span class='gold-emph'>Spanish Championship</span>, <span class='gold-emph'>Copa del Rey</span>, and the <span class='gold-emph'>FIFA Club World Cup</span>. With <span class='blue-emph'>excellent performances</span> from Neymar and his trio, who were already becoming the best attacking trio in the world.",
     
             "2016text1": "Another year of many achievements for Ney, who had been performing at a very high level for the Brazilian National Team and Barcelona.",

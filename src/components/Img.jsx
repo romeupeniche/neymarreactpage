@@ -37,28 +37,18 @@ function Img(props) {
         }, slideTime)
     }
 
-    function runChangeImg(year) {
-        changeImg(year)
-        Array.from(document.getElementsByClassName('img-container')).forEach(elem => {
-            elem.classList.add('blur')
-        })
-    }
-
     function stopChangeImg() {
         clearInterval(slideInterval)
         count = -1
         Array.from(document.getElementsByClassName('z')).forEach(elem => {
             elem.classList.remove('z')
         })
-        Array.from(document.getElementsByClassName('img-container')).forEach(elem => {
-            elem.classList.remove('blur')
-        })
     }
 
     return (
         <div className='img-container' >
             <div className='inside-img-container' >
-                <img className='image fst' src={props.link} alt={props.alt} onMouseOver={e => runChangeImg(e.target.alt)} onMouseOut={stopChangeImg} />
+                <img className='image fst' src={props.link} alt={props.alt} onMouseOver={e => changeImg(e.target.alt)} onMouseOut={stopChangeImg} />
                 <img className='image snd' src={props.link2} alt={props.alt} />
                 <img className='image trd' src={props.link3} alt={props.alt} />
                 <img className='image fth' src={props.link4} alt={props.alt} />

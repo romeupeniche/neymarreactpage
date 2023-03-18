@@ -16,12 +16,11 @@ const languageOptions = [
     }
 ]
 
-function LanguageSwitcher () {
+function LanguageSwitcher (props) {
     const { i18n } = useTranslation();
 
     return (
-        <div id='language-switcher'>
-
+        <div id={props.id}>
             {languageOptions.map(languageOption => (
                 <button
                     key={languageOption.value}
