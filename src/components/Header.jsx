@@ -7,11 +7,9 @@ import menudrop from '../static/images/menu.svg';
 
 function Header() {
     const { t } = useTranslation();
-    const headerNav = document.getElementById('menu');
 
     function menuToggle() {
-        headerNav.classList.toggle('active')
-
+        document.getElementById('menu').classList.toggle('active')
     }
 
     return (
