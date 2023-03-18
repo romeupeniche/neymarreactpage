@@ -30,7 +30,7 @@ const Home = () => {
                 <section id='home-sec1'>
                     <img id='home-img1' src={img1.link} alt={img1.description} title={img1.description} />
                     <div id='h-p1-div'>
-                        <p id='home-p1'>{<Trans components={{ a: <a /> }}>{"homeText1"}</Trans>}</p>
+                        <p id='home-p1' href='/'>{<Trans components={{ a: <a href='https://github.com/romeupeniche'> </a> }}>{"homeText1"}</Trans>}</p>
                     </div>
                 </section>
                 <h1 id='home-title'>{t('homeTitle')}</h1>

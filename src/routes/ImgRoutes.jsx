@@ -1,10 +1,8 @@
-import { useTranslation } from "react-i18next";
 import TLPage from "../components/TLPage";
 import imgs from "../static/imgs.json";
 
 function ImgRoutes() {
     let _2010, _2011, _2012, _2013, _2014, _2015, _2016, _2017, _2018, _2019, _2020, _2021;
-    const { t } = useTranslation();
 
     _2010 = <TLPage
         year='2010'
