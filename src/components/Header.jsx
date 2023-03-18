@@ -8,9 +8,16 @@ import menudrop from '../static/images/menu.svg';
 function Header() {
     const { t } = useTranslation();
 
-    function menuToggle() {
-        document.getElementById('menu').classList.toggle('active')
+    function menuToggle(e) {
+        if (e.type === 'mouseout') {
+            if (document.getElementById('menu').classList.contains('active')) {
+                document.getElementById('menu').classList.remove('active')
+            }
+        } else {
+            document.getElementById('menu').classList.toggle('active')
+        }
     }
+
 
     return (
         <header className='header'>
@@ -29,13 +36,11 @@ function Header() {
                             {t("headerTimeline")}
                         </Link>
                     </li>
-                    <li>
-                        <LanguageSwitcher id='language-switcher-resp' />
-                    </li>
                 </ul>
+                <LanguageSwitcher id='language-switcher-resp' />
             </nav>
-            <LanguageSwitcher id='language-switcher'/>
-            <img id='menu-drop' src={menudrop} alt="Menu Drop Icon" onClick={menuToggle} />
+            <LanguageSwitcher id='language-switcher' />
+            <img id='menu-drop' src={menudrop} alt="Menu Drop Icon" onClick={menuToggle} onMouseOut={menuToggle}/>
         </header>
     )
 }
