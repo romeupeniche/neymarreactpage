@@ -2,6 +2,7 @@ import { Trans, useTranslation } from 'react-i18next'
 import './TLPage.css'
 
 function TLPage(props) {
+    console.log(props)
     const { t } = useTranslation();
     window.scrollTo(0, 0)
 
