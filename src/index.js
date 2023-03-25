@@ -29,7 +29,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'timeline/:year',
-        element: <TLPage year="year"/>
+        element: <TLPage/>
       },
     ]
   }

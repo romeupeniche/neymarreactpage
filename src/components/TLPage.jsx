@@ -1,8 +1,10 @@
 import { Trans, useTranslation } from 'react-i18next'
 import './TLPage.css'
+import { useParams } from 'react-router-dom';
 
 function TLPage(props) {
-    console.log(props)
+    const { year } = useParams();
+    console.log(year)
     const { t } = useTranslation();
     window.scrollTo(0, 0)
 
