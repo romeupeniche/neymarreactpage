@@ -1,9 +1,19 @@
 import { Trans, useTranslation } from "react-i18next";
 import "./TLPage.css";
+import { useParams } from "react-router-dom";
+import imgsJSON from "../static/imgs.json";
 
 function TLPage(props) {
+  const urlParams = useParams();
+  const year = urlParams.year;
   const { t } = useTranslation();
   window.scrollTo(0, 0);
+  const reverse = false;
+
+  const imgs = imgsJSON[year].pageImgs;
+  const _pgtxt1 = `timelineText.${year}text1`;
+  const _pgtxt2 = `timelineText.${year}text2`;
+  const _pgtxt3 = `timelineText.${year}text3`;
 
   const MainDiv = (innerprops) =>
     reverse ? (
