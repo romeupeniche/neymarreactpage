@@ -3,18 +3,14 @@ import "./TLPage.css";
 import { useParams } from "react-router-dom";
 import imgsJSON from "../static/imgs.json";
 
-function TLPage(props) {
+function TLPage() {
   const urlParams = useParams();
   const year = urlParams.year;
   const { t } = useTranslation();
   window.scrollTo(0, 0);
-  const reverse = false;
+  const reverse = year % 2 === 0;
 
   const imgs = imgsJSON[year].pageImgs;
-  const _pgtxt1 = `timelineText.${year}text1`;
-  const _pgtxt2 = `timelineText.${year}text2`;
-  const _pgtxt3 = `timelineText.${year}text3`;
-
   const MainDiv = (innerprops) =>
     reverse ? (
       <div id="g-page-div" className="page-div-r">
@@ -27,17 +23,29 @@ function TLPage(props) {
     );
   const pagetext1 = (
     <p id="page-text1">
-      {<Trans components={{ span: <span /> }}>{_pgtxt1}</Trans>}
+      {
+        <Trans
+          components={{ span: <span /> }}
+        >{`timelineText.${year}text1`}</Trans>
+      }
     </p>
   );
   const pagetext2 = (
     <p id="page-text2">
-      {<Trans components={{ span: <span /> }}>{_pgtxt2}</Trans>}
+      {
+        <Trans
+          components={{ span: <span /> }}
+        >{`timelineText.${year}text2`}</Trans>
+      }
     </p>
   );
   const pagetext3 = (
     <p id="page-text3">
-      {<Trans components={{ span: <span /> }}>{_pgtxt3}</Trans>}
+      {
+        <Trans
+          components={{ span: <span /> }}
+        >{`timelineText.${year}text3`}</Trans>
+      }
     </p>
   );
   return (
