@@ -4,78 +4,40 @@ import { useParams } from "react-router-dom";
 import imgsJSON from "../static/imgs.json";
 
 function TLPage() {
-  const urlParams = useParams();
-  const year = urlParams.year;
+  const year = useParams().year;
   const { t } = useTranslation();
   window.scrollTo(0, 0);
-  const reverse = year % 2 === 0;
-
   const imgs = imgsJSON[year].pageImgs;
-  const MainDiv = (innerprops) =>
-    reverse ? (
-      <div id="g-page-div" className="page-div-r">
-        {innerprops.children}
-      </div>
-    ) : (
-      <div id="g-page-div" className="page-div">
-        {innerprops.children}
-      </div>
-    );
-  const pagetext1 = (
-    <p id="page-text1">
-      {
-        <Trans
-          components={{ span: <span /> }}
-        >{`timelineText.${year}text1`}</Trans>
-      }
-    </p>
-  );
-  const pagetext2 = (
-    <p id="page-text2">
-      {
-        <Trans
-          components={{ span: <span /> }}
-        >{`timelineText.${year}text2`}</Trans>
-      }
-    </p>
-  );
-  const pagetext3 = (
-    <p id="page-text3">
-      {
-        <Trans
-          components={{ span: <span /> }}
-        >{`timelineText.${year}text3`}</Trans>
-      }
-    </p>
-  );
+
   return (
-    <MainDiv>
+    <div id="g-page-div" className={`page-div${year % 2 === 0 ? "-r" : ""}`}>
       <h1 id="page-title">
         {t("timelineText.timelineTitle")} <span id="year">{year}</span>
       </h1>
-      <img
-        id="page-img1"
-        src={imgs[1].link}
-        alt={imgs[1].description}
-        title={imgs[1].description}
-      />
-      <img
-        id="page-img2"
-        src={imgs[2].link}
-        alt={imgs[2].description}
-        title={imgs[2].description}
-      />
-      <img
-        id="page-img3"
-        src={imgs[3].link}
-        alt={imgs[3].description}
-        title={imgs[3].description}
-      />
+      {[1, 2, 3].map((num) => {
+        return (
+          <img
+            key={`img${num}`}
+            id={`page-img${num}`}
+            src={imgs[num].link}
+            alt={imgs[num].description}
+            title={imgs[num].description}
+          />
+        );
+      })}
 
-      {pagetext1}
-      {pagetext2}
-      {pagetext3}
-    </MainDiv>
+      {[1, 2, 3].map((num) => {
+        return (
+          <p id={`page-text${num}`} key={`page-text${num}`}>
+            {
+              <Trans
+                components={{ span: <span /> }}
+              >{`timelineText.${year}text${num}`}</Trans>
+            }
+          </p>
+        );
+      })}
+    </div>
   );
 }
 
